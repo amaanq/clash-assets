@@ -28,6 +28,8 @@
 "OpenMoreSettings",,,"Open ”More Settings”","true"
 "OpenLayoutEditor","int","village","Open layout editor, optional village parameter 0==Home, 1==BuilderBase","true"
 "ChallengeAttack","String","map","Attack challenge npc map","false"
+,"int","challegeEventId",,
+,"int","sourceEventId",,
 "OpenNews",,,"Open News","true"
 "OpenLayout","String","id","Description","true"
 "OpenSeasonChallenges","boolean","passactivation","Open season challenges UI if available","true"
@@ -41,3 +43,4 @@
 "TournamentHub",,,,"true"
 "OpenWar",,,"Open War","true"
 "CopyArmy","String","army","ArmyShareUtil encoded army composition","true"
+"OpenCapital",,,,

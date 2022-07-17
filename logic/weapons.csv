@@ -16,3 +16,4 @@
 ,,,,"town_hall_lvl14_t3",11,0,0,0,,11000000,1000,128,300,"TH14 Attack 1",,"Dark Tower Hit",,"true","true","true",4,,1000,400,"Super_Bomb",1600,,690,"TH13_inferno_activate"
 ,,,,"town_hall_lvl14_t4",13,0,0,,,13000000,1000,128,300,"TH14 Attack 1",,"Dark Tower Hit",,"true","true","true",4,,1000,400,"Super_Bomb",1600,,710,"TH13_inferno_activate"
 ,,,,"town_hall_lvl14_t5",14,0,0,,,15000000,1000,128,300,"TH14 Attack 1",,"Dark Tower Hit",,"true","true","true",4,,1000,400,"Super_Bomb",1600,,750,"TH13_inferno_activate"
+"GoblinBossTH","TID_WEAPON_TOWN_HALL","TID_TOWN_HALL_WEAPON_INFO","sc/buildings.sc","goblin_boss_attack",,,,,,,1100,1100,300,"Bomb Tower Throw Start",,"Bomb Tower Hit","Bomb Tower Ammo1","false","true","true",,,,,,,,,

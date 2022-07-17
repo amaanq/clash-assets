@@ -387,3 +387,4 @@
 "DestroyArmyCampsEpic","DestroyBuilding","Accumulative","Epic","TID_BATTLEPASS_TASK_DESTROY_ARMYCAMPS","TID_BATTLEPASS_TASK_INFO_DESTROY_ARMYCAMPS","sc/buildings.sc","fireplace_lvl5",200,480,18,,"Troop Housing",,,
 "DestroyTownHalls","DestroyBuilding","Accumulative","Regular","TID_BATTLEPASS_TASK_DESTROY_TOWNHALLS","TID_BATTLEPASS_TASK_INFO_DESTROY_TOWNHALLS","sc/buildings.sc","town_hall_lvl7",100,480,5,,"Town Hall",,,
 "DestroyTownHallsEpic","DestroyBuilding","Accumulative","Epic","TID_BATTLEPASS_TASK_DESTROY_TOWNHALLS","TID_BATTLEPASS_TASK_INFO_DESTROY_TOWNHALLS","sc/buildings.sc","town_hall_lvl7",200,480,10,,"Town Hall",,,
+"DoRaidAttacksNormal","DoRaidAttacks","Accumulative","Regular","TID_BATTLEPASS_TASK_DO_RAID_ATTACKS","TID_BATTLEPASS_TASK_INFO_DO_RAID_ATTACKS","sc/ui.sc","Capital_Raid_Attacks",150,480,5,,,,,
