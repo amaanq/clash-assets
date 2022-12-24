@@ -15,8 +15,7 @@
 "OpenClanProfile","String","tag","Open a clans profile","true"
 "OpenEvents","int","eventId","Open event calendar and highlight event","true"
 "SelectGameObject","GameObject","name","Select first game object with name","true"
-"OpenHelpshift","String","article","Open Helpshift. Show article if defined, show section if defined, else show FAQ.","true"
-,"String","section",,
+"OpenHelpshift",,,"Open Helpshift. article and section parameters are deprecated.","true"
 "OpenClanSearch",,,"Open the clan search screen.","true"
 "OpenCreateClan",,,"Open the create clan screen.","true"
 "OpenClanGames",,,"Open clan games UI if available","true"

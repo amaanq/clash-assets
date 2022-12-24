@@ -72,3 +72,5 @@
 "Fallen Wizard Statue","TID_WIZARD_STATUE",,"sc/buildings.sc","CC_wizard_deco","generic_construction_state1","Diamonds",500,,1,2,2,1,,,"statue_base",,"TRUE","TRUE",,,,,,,,,,,,
 "10 Year Birthday Statue","TID_DECORATION_10YEAR_BIRTHDAY_STATUE","TID_DECORATION_10YEAR_BIRTHDAY_STATUE_INFO","sc/buildings.sc","deco_anniversary_10y","generic_construction_state1","Diamonds",500,,1,2,2,1,,,"statue_base",,"TRUE","TRUE",,,,,,,,"true",,,,
 "Clash Fest Statue","TID_DECORATION_CLASH_FEST_22_STATUE","TID_DECORATION_CLASH_FEST_22_STATUE_INFO","sc/buildings.sc","deco_clash_fest_22","generic_construction_state1","Diamonds",500,,1,2,2,1,,,"statue_base",,"TRUE","TRUE",,,,,,,,"true",,,,
+"Clashmas22 Deco","TID_DECORATION_CLASHMAS_22","TID_DECORATION_CLASMAS_22_INFO","sc/buildings.sc","clashmas22_deco","generic_construction_state1","Diamonds",500,,1,2,2,1,,,"statue_base",,"TRUE","TRUE",,,,,,,,"true",,,,
+"LNY2023Statue","TID_STATUE_LNY_2023","TID_STATUE_LNY_2023_INFO","sc/buildings.sc","deco_magic_show_statue","generic_construction_state1","Diamonds",500,,1,2,2,1,,,"statue_base",,"TRUE","TRUE",,,,,,,,,,,,

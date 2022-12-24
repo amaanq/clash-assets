@@ -23,3 +23,6 @@
 "Pillar 02",,"TID_DECO_RESTORED_PILLAR",,"sc/buildings_cc.sc","cc_deco_2x2_pillar_02",,"cc_deco_2x2_ruined_pillar_02","Diamonds",500,,3,2,2,1,,,,,"TRUE",,,,,,,,,,,"Stone Pickup",
 "Restored Barbarian",,"TID_DECO_RESTORED_BARBARIAN",,"sc/buildings_cc.sc","cc_deco_4x4_02",,"cc_deco_4x4_01","Diamonds",500,,1,4,4,1,,0,,,"TRUE",,,,,,,,,,,"Mortar Pickup",
 "Great Pyre",,"TID_DECO_GREAT_PYRE",,"sc/buildings_cc.sc","cc_deco_3x3_pillar_01",,"ruin_deco_fireplace","Diamonds",500,,1,3,3,1,,0,,,"TRUE",,,,,,,,,,,"Troop Housing Pickup",
+"Tomb",,"TID_OBSTACLE_TOMBSTONE",,"sc/buildings_cc.sc","tombstone_1_cc",,,"Diamonds",500,,1,1,1,1,,0,,,"TRUE",,,,,,,,,,,"Stone Pickup",
+"Tomb 2",,"TID_OBSTACLE_TOMBSTONE",,"sc/buildings_cc.sc","tombstone_2_cc",,,"Diamonds",500,,1,1,1,1,,0,,,"TRUE",,,,,,,,,,,"Stone Pickup",
+"Tomb 3",,"TID_OBSTACLE_TOMBSTONE",,"sc/buildings_cc.sc","tombstone_3_cc",,,"Diamonds",500,,1,1,1,1,,0,,,"TRUE",,,,,,,,,,,"Stone Pickup",

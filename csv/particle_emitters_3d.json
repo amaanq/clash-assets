@@ -685,6 +685,80 @@ emitterDataVersion":2,
 		},
 		"movieclip":[{"swf":"sc\/hero_aq_champ_dl_opt.sc","name":"hero_champ_sword_spark_01"}]
 	},
+	"hero_champion_gw_firestaff":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":15,
+			"lifetime":0.47,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":12},{"__class":"SpawnLocation"},{"__class":"SpawnCone","velocity":12,"velocityJitter":3}]
+		},
+		"render":{
+			"globalScale":0.02,
+			"scale":[2.6,0.8],
+			"scaleJitter":0.3,
+			"color":[1,1,1],
+			"alpha":0.6,
+			"angleJitter":[360,0],
+			"rotationSpeed":56,
+			"rotationSpeedJitter":[21,360],
+			"orientToDirection":true,
+			"tailLength":5,
+			"tailLengthJitter":1,
+			"loopMovieClip":true,
+			"alphaFadeout":1,
+			"trailDuration":0.4,
+			"trailWidth":0.3
+		},
+		"movieclip":[{"swf":"sc\/hero_aq_champ_dl_opt.sc","name":"hero_champ_sword_fire_mirrored"}]
+	},
+	"hero_champion_gw_glow":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":10,
+			"lifetime":2,
+			"mass":0.01,
+			"spawnPointOffset":{},
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":0.87},{"__class":"SpawnLocation"},{"__class":"SpawnCone","velocity":4}]
+		},
+		"render":{
+			"globalScale":0.02,
+			"scale":[3,1],
+			"color":[1,1,1],
+			"alpha":0.3,
+			"angle":90,
+			"loopMovieClip":true,
+			"alphaFadeout":1,
+			"trailWidth":0.1
+		},
+		"movieclip":[{"swf":"sc\/hero_aq_champ_dl_opt.sc","name":"hero_champ_sword_glow"}]
+	},
+	"hero_champion_gw_sparks":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":0.75,
+			"mass":1,
+			"spawnPointOffset":{},
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":5},{"__class":"SpawnLocation"},{"__class":"SpawnCone","direction":[0,90,1],"velocity":15}]
+		},
+		"render":{
+			"globalScale":0.03,
+			"scale":[1,1.5],
+			"color":[1,1,1],
+			"alpha":0.3,
+			"angleJitter":360,
+			"rotationSpeed":-10,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.3,
+			"trailWidth":1
+		},
+		"movieclip":[{"swf":"sc\/hero_aq_champ_dl_opt.sc","name":"hero_champ_sword_spark_01"}]
+	},
 	"hero_champion_sword":{
 		"emitterDataVersion":2,
 		"emitter":{
@@ -704,7 +778,7 @@ emitterDataVersion":2,
 			"scale":[4.3,0.4],
 			"scaleJitter":0.5,
 			"color":[[1,1,1],[0,0,0]],
-			"alpha":0.5,
+			"alpha":0.9,
 			"angleJitter":[-10,20],
 			"rotationSpeedJitter":[0,100],
 			"orientToDirection":true,
@@ -727,7 +801,7 @@ emitterDataVersion":2,
 			"globalScale":0.03,
 			"scale":[2.3,1],
 			"color":[1,1,1],
-			"alpha":0.7,
+			"alpha":1,
 			"angleJitter":360,
 			"rotationSpeed":-50,
 			"rotationSpeedJitter":50,
@@ -811,7 +885,7 @@ emitterDataVersion":2,
 			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,4,1],
 			"scaleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0.5,0.5],
 			"color":[0.33333334,0.33333334,0.6666667,0.6666667,[1,1,1],[1,1,1]],
-			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,0.7,0.7],
+			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,1,0.7],
 			"angle":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
 			"angleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,-10,20],
 			"rotationSpeed":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
@@ -1621,10 +1695,10 @@ emitterDataVersion":2,
 		},
 		"render":{
 			"globalScale":0.03,
-			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,2,0.4],
+			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,3,0.4],
 			"scaleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0.5,0.5],
 			"color":[0.33333334,0.33333334,0.6666667,0.6666667,[1,1,1],[0,0,0]],
-			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,0.5,0.5],
+			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,1,0.7],
 			"angle":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
 			"angleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,-10,20],
 			"rotationSpeed":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
@@ -1669,7 +1743,7 @@ emitterDataVersion":2,
 			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,1.4,0.5],
 			"scaleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
 			"color":[0.33333334,0.33333334,0.6666667,0.6666667,[1,1,1],[1,1,1]],
-			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,0.3,0.2],
+			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,0.9,0.6],
 			"angle":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
 			"angleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,360,360],
 			"rotationSpeed":[0.33333334,0.33333334,0.6666667,0.6666667,-50,-50],
@@ -1771,6 +1845,123 @@ emitterDataVersion":2,
 			"trailWidth":[0.33333334,0.33333334,0.6666667,0.6666667,1,1]
 		},
 		"movieclip":[{"swf":"sc\/hero_bk_champ_dl_opt.sc","name":"hero_champ_sword_spark_01"}]
+	},
+	"magic_gw_attack1":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":4,
+			"emitterDelay":8,
+			"lifetime":[0.33333334,0.33333334,0.6666667,0.6666667,4,4],
+			"lifetimeJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"mass":4,
+			"spawnPointOffset":{"x":-4,"y":-2},
+			"gravity":[0.33333334,0.33333334,0.6666667,0.6666667,[0,0,0],[0,0,0]],
+			"followEmitter":true,
+			"emitterLoop":true,
+			"components":[
+				{
+					"__class":"SpawnRate",
+					"infinite":true,
+					"duration":1,
+					"spawnRate":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+					"spawnRateJitter":[0.33333334,0.33333334,0.6666667,0.6666667,1,1]
+				},
+				{"__class":"SpawnLocation"}
+			]
+		},
+		"render":{
+			"globalScale":0.03,
+			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,5,4],
+			"scaleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0.2,0.2],
+			"color":[0.33333334,0.33333334,0.6666667,0.6666667,[1,1,1],[1,1,1]],
+			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+			"angle":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"angleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0.1],
+			"orientToDirection":true,
+			"tailLength":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"tailLengthJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"loopMovieClip":true,
+			"alphaFadeout":0.1,
+			"trailWidth":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_gw_magic_dl_opt.sc","name":"magic_fx2"}]
+	},
+	"magic_gw_attack2":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":1,
+			"emitterDelay":0.5,
+			"lifetime":[0.33333334,0.33333334,0.6666667,0.6666667,0.4,0.4],
+			"lifetimeJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0.33333334,0.33333334,0.6666667,0.6666667,[0,0,0],[0,0,0]],
+			"components":[
+				{
+					"__class":"SpawnRate",
+					"duration":1,
+					"spawnRate":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+					"spawnRateJitter":[0.33333334,0.33333334,0.6666667,0.6666667,1,1]
+				},
+				{"__class":"SpawnLocation","spawnMinSize":[0.33333334,0.33333334,0.6666667,0.6666667,0,4e-45],"spawnMaxSize":[0.33333334,0.33333334,0.6666667,0.6666667,0,4e-45]}
+			]
+		},
+		"render":{
+			"globalScale":0.03,
+			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,1,4],
+			"scaleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0.5,0.5],
+			"color":[0.33333334,0.33333334,0.6666667,0.6666667,[1,1,1],[1,1,1]],
+			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,1,0.2],
+			"angle":[0.33333334,0.33333334,0.6666667,0.6666667,-360,360],
+			"angleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,360],
+			"rotationSpeed":300,
+			"rotationSpeedJitter":40,
+			"tailLength":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"tailLengthJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"alphaFadeout":0.1,
+			"trailWidth":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_gw_magic_dl_opt.sc","name":"magic_fx"}]
+	},
+	"magic_gw_attack3":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":1,
+			"emitterDelay":5,
+			"lifetime":[0.33333334,0.33333334,0.6666667,0.6666667,0.4,0.4],
+			"lifetimeJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0.33333334,0.33333334,0.6666667,0.6666667,[0,0,0],[0,0,0]],
+			"components":[
+				{
+					"__class":"SpawnRate",
+					"duration":1,
+					"spawnRate":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+					"spawnRateJitter":[0.33333334,0.33333334,0.6666667,0.6666667,1,1]
+				},
+				{"__class":"SpawnLocation","spawnMinSize":[0.33333334,0.33333334,0.6666667,0.6666667,0,4e-45],"spawnMaxSize":[0.33333334,0.33333334,0.6666667,0.6666667,0,4e-45]}
+			]
+		},
+		"render":{
+			"globalScale":0.03,
+			"scale":[0.33333334,0.33333334,0.6666667,0.6666667,1,4],
+			"scaleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0.5,0.5],
+			"color":[0.33333334,0.33333334,0.6666667,0.6666667,[1,1,1],[1,1,1]],
+			"alpha":[0.33333334,0.33333334,0.6666667,0.6666667,1,0.2],
+			"angle":[0.33333334,0.33333334,0.6666667,0.6666667,-360,360],
+			"angleJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,360],
+			"rotationSpeed":300,
+			"rotationSpeedJitter":40,
+			"tailLength":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"tailLengthJitter":[0.33333334,0.33333334,0.6666667,0.6666667,0,0],
+			"alphaFadeout":0.1,
+			"trailWidth":[0.33333334,0.33333334,0.6666667,0.6666667,1,1],
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_gw_magic_dl_opt.sc","name":"magic_fx"}]
 	},
 	"miner_aq_candle_fire_asset":{
 		"emitterDataVersion":2,
@@ -2205,6 +2396,94 @@ emitterDataVersion":2,
 		},
 		"movieclip":[{"swf":"sc\/hero_bk_party_dl_opt.sc","name":"party_purple_effect"},{"swf":"sc\/hero_bk_party_dl_opt.sc","name":"party_purple_effect2"},{"swf":"sc\/hero_bk_party_dl_opt.sc","name":"party_green_effect"},{"swf":"sc\/hero_bk_party_dl_opt.sc","name":"party_green_effect2"}]
 	},
+	"pet_lizard_bubbles":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":16,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"components":[
+				{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},
+				{"__class":"SpawnLocation","spawnShape":1,"spawnMinSize":1,"spawnMaxSize":1},
+				{"__class":"SpawnCone","direction":[0,10,0],"velocity":5,"velocityJitter":0.2}
+			]
+		},
+		"render":{
+			"globalScale":0.07,
+			"scale":[0.8,2],
+			"color":[1,1,1],
+			"alpha":0.7,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.3,
+			"trailWidth":1
+		},
+		"movieclip":[{"swf":"sc\/buildings.sc","name":"pet_poison_bubble"}]
+	},
+	"pet_lizard_mist":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":12,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{"y":-5},
+			"components":[
+				{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},
+				{"__class":"SpawnLocation","spawnShape":2,"spawnMinSize":4,"spawnMaxSize":3},
+				{"__class":"SpawnCone","direction":[0,10,0],"velocity":5,"velocityJitter":0.2}
+			]
+		},
+		"render":{
+			"globalScale":0.07,
+			"scale":[4,2.5],
+			"color":[1,1,1],
+			"alpha":0.3,
+			"angleJitter":360,
+			"rotationSpeed":35,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":1,
+			"trailWidth":1
+		},
+		"movieclip":[{"swf":"sc\/buildings.sc","name":"pet_poison_mist"}]
+	},
+	"pet_phoenix_sparks":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":1,
+			"lifetimeJitter":0.2,
+			"mass":0.3,
+			"spawnPointOffset":{},
+			"components":[
+				{"__class":"SpawnRate","infinite":true,"spawnRate":6,"spawnRateJitter":0.2},
+				{"__class":"SpawnLocation","spawnShape":1,"spawnMinSize":1,"spawnMaxSize":0.6},
+				{"__class":"SpawnCone","velocity":6}
+			]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[2.5,0.8],
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/buildings.sc","name":"presentOpen_sparkleRed"},{"swf":"sc\/buildings.sc","name":"spark_flame2"}]
+	},
 	"rocket_trail_01":{
 		"emitterDataVersion":2,
 		"emitter":{
@@ -2300,6 +2579,202 @@ emitterDataVersion":2,
 			"billboardAlign":2
 		},
 		"movieclip":[{"swf":"sc\/buildings_cc.sc","name":"rocket_trail_fire"},{"swf":"sc\/buildings_cc.sc","name":"rocket_trail_fire_mirrored"}]
+	},
+	"skin_magic_sparks_aq":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0,4,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_aq_magic_dl_opt.sc","name":"magic_particle_asset"}]
+	},
+	"skin_magic_sparks_aq_rotate":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[-4,0,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_aq_magic_dl_opt.sc","name":"magic_particle_asset"}]
+	},
+	"skin_magic_sparks_bk":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0,4,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_bk_magic_dl_opt.sc","name":"magic_particle_asset"}]
+	},
+	"skin_magic_sparks_bk_rotate":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[4,0,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_bk_magic_dl_opt.sc","name":"magic_particle_asset"}]
+	},
+	"skin_magic_sparks_gw":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0,4,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_gw_magic_dl_opt.sc","name":"magic_particle_asset"}]
+	},
+	"skin_magic_sparks_rc":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0,4,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_rc_magic_dl_opt.sc","name":"magic_particle_asset"}]
+	},
+	"skin_magic_sparks_rc_rotate":{
+		"emitterDataVersion":2,
+		"emitter":{
+			"maxParticleCount":30,
+			"lifetime":2,
+			"lifetimeJitter":0.2,
+			"mass":1,
+			"spawnPointOffset":{},
+			"gravity":[0,-4,0],
+			"components":[{"__class":"SpawnRate","infinite":true,"spawnRate":2,"spawnRateJitter":0.2},{"__class":"SpawnLocation","spawnMinSize":1,"spawnMaxSize":2},{"__class":"SpawnCone"}]
+		},
+		"render":{
+			"globalScale":0.08,
+			"scale":[0.8,0.2],
+			"scaleJitter":0.2,
+			"color":[1,1,1],
+			"alpha":0.8,
+			"angleJitter":360,
+			"rotationSpeed":20,
+			"rotationSpeedJitter":10,
+			"orientToDirection":true,
+			"loopMovieClip":true,
+			"alphaFadeout":0.6,
+			"trailWidth":1,
+			"blendMode":2
+		},
+		"movieclip":[{"swf":"sc\/hero_rc_magic_dl_opt.sc","name":"magic_particle_asset"}]
 	},
 	"snow_spiral":{
 		"emitterDataVersion":2,
